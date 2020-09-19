@@ -1,0 +1,10 @@
+**/log/
+**/.vscode/
+**/__pycache__
+**/temp
+*log
+*.warning
+/*
+!*.py
+!*.R
+

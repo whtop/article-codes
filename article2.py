@@ -297,8 +297,8 @@ def predict(targetNode, edges, cpt, data):
 if __name__ == "__main__":
     maxParents = 2  # maximum number of parents each node can have
     # maximum number of valid proposed new graphs that will be evaluated for superiority to current best before stopping program
-    maxAttempts = 200
-    testGene = 0
+    maxAttempts = 100
+    testGene = 1
     train = pd.read_csv("./data/article2_train.txt", sep='\t', header=None)
     test = pd.read_csv("./data/article2_test.txt", sep='\t', header=None)
     results = optimize_graph(train, maxParents=maxParents, maxAttempts=maxAttempts)

@@ -4,7 +4,6 @@
 **/temp
 *log
 *.warning
-/*
 !*.py
 !*.R
 
